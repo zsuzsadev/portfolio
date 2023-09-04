@@ -32,9 +32,9 @@ hr {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
-       margin-inline: auto;
-       align-self: center;
+        justify-content: space-around !important;
+       margin-inline: auto !important;
+       align-self: center !important;
        width: 100%;
        max-width: 800px;
        text-align: center !important;
@@ -47,6 +47,7 @@ hr {
 
             @media screen and (max-width:800px){
                 margin-inline: auto !important;
+                font-size: 80px;
             }
 
         }
