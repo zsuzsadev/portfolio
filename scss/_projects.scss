@@ -1,0 +1,125 @@
+#projects {
+    height: auto;
+    margin-inline: auto;
+    padding-inline: 20px;
+
+
+    hr {
+        width: 30% !important;
+        margin-inline: auto !important;
+        padding-bottom: 40px;
+        border-top: 1px solid var(--highlight-color);
+
+    
+    }
+
+    h1 {
+        max-width: 1200px;
+        margin-inline: auto;
+        font-size: 40px;
+        padding-top: 20px;
+        color: var(--lightest-text-color);
+        padding-bottom: 20px;
+
+        @media screen and (max-width:800px) {
+            text-align: center;
+            }
+
+    }
+
+h3 {
+    margin-inline: auto;
+    text-align: center;
+    padding-bottom: 20px;
+
+    a {
+        text-decoration: none;
+        color: var(--highlight-color);
+    }
+}
+
+}
+
+.projectcontainer {
+    background-color: var(--lighter-base-color);
+    flex-direction: row;
+    display: flex;
+    border-radius: 5px;
+max-width: 1200px;
+margin-inline: auto;
+margin-bottom: 20px;
+
+@media screen and (max-width:800px) {
+flex-direction: column;
+align-items: center;
+max-width: 500px;
+}
+
+    .projectimage {
+
+
+        img {
+            object-fit:contain;
+            border-top-left-radius: 5px;
+            max-width: 350px;
+           
+
+
+            @media screen and (max-width:800px) {
+                max-width: 100% !important;
+                }
+
+        }
+    }
+
+ 
+    .projecttext {
+        padding: 20px;
+
+        button {
+            background-color: transparent;
+            color: var(--base-color);
+            padding: 10px;
+            border-radius: 15px;
+            border: 1px solid var(--base-color);
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: inline-block;
+            margin-right: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            letter-spacing: 3px;
+
+          
+
+            a {
+                color: var(--base-color);
+            }
+
+        }
+    
+    button:hover {
+        background-color: var(--highlight-color);
+
+    }
+
+        h2 {
+            text-align: left;
+            margin-bottom: 10px;
+            color: var(--darker-base-color);
+
+        }
+
+        p {
+            text-align: justify;
+            color: var(--darker-base-color);
+        }
+    }
+
+}
+
+.projectcontainer:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
