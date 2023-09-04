@@ -550,6 +550,7 @@ footer {
 #knowledge .icons i {
   font-size: 100px;
   letter-spacing: 20px;
+  text-align: center !important;
 }
 #knowledge p {
   text-align: center;
