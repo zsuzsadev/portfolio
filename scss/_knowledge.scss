@@ -37,12 +37,17 @@ hr {
        align-self: center;
        width: 100%;
        max-width: 800px;
-        
+       text-align: center !important;
+
 
         i {
             font-size: 100px;
             letter-spacing: 20px;
             text-align: center !important;
+
+            @media screen and (max-width:800px){
+                margin-inline: auto !important;
+            }
 
         }
         
