@@ -30,6 +30,7 @@ hr {
     .icons {
         padding: 20px;
         display: flex;
+        color: #fff;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around !important;
@@ -44,11 +45,17 @@ hr {
             font-size: 100px;
             letter-spacing: 20px;
             text-align: center !important;
+        
 
             @media screen and (max-width:800px){
                 margin-inline: auto !important;
                 font-size: 80px;
             }
+
+        }
+
+        i:hover {
+            text-shadow: 3px 3px 10px #000000;
 
         }
         
@@ -57,7 +64,7 @@ hr {
     p {
         text-align: center;
         padding-inline: 40px;
-        color: var(--lighter-base-color);
+        color: var(--light-text-color);
         max-width: 800px;
         padding-top: 5px;
         margin-inline: auto;

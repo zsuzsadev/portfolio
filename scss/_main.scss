@@ -12,8 +12,13 @@ main {
         padding-right: 10px;
 
         i {
-            font-size: 30px;
+            font-size: 40px;
         }
+
+        i:hover {
+            text-shadow: 3px 3px 10px #fff;
+        }
+
       }
 }
 

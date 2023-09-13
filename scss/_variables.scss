@@ -1,8 +1,20 @@
+/*
 :root {
     --base-color: #4C4864;
     --darker-base-color: #201e2c;
     --lighter-base-color: #E5F2F9;
     --light-text-color: #959da1;
+    --lightest-text-color: rgb(252, 254, 255);
+    --highlight-color: #F3C72C;
+}
+*/
+
+:root {
+    --base-color: #272b3b;
+    --darker-base-color: #201e2c;
+    --lighter-base-color: #E5F2F9;
+    /*--light-text-color: #e2e2e9;*/
+--light-text-color: #a9a9be;
     --lightest-text-color: rgb(252, 254, 255);
     --highlight-color: #F3C72C;
 }

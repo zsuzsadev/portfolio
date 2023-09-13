@@ -5,11 +5,17 @@
     text-align: center;
     margin-inline: auto;
 
+    h3 {
+        color: var(--light-text-color);
+
+    }
+
     h1 {
     font-size: 40px;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
+    color: var(--lighter-base-color)
     }
 
         i {

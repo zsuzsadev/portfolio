@@ -31,6 +31,8 @@ h3 {
     margin-inline: auto;
     text-align: center;
     padding-bottom: 20px;
+    color: var(--light-text-color);
+
 
     a {
         text-decoration: none;
@@ -75,6 +77,10 @@ max-width: 500px;
  
     .projecttext {
         padding: 20px;
+
+        #demo {
+            background-color: var(--highlight-color); 
+        }
 
         button {
             background-color: transparent;

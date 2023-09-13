@@ -193,11 +193,22 @@ h2 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/*
 :root {
-  --base-color: #4C4864;
+    --base-color: #4C4864;
+    --darker-base-color: #201e2c;
+    --lighter-base-color: #E5F2F9;
+    --light-text-color: #959da1;
+    --lightest-text-color: rgb(252, 254, 255);
+    --highlight-color: #F3C72C;
+}
+*/
+:root {
+  --base-color: #272b3b;
   --darker-base-color: #201e2c;
   --lighter-base-color: #E5F2F9;
-  --light-text-color: #959da1;
+  /*--light-text-color: #e2e2e9;*/
+  --light-text-color: #a9a9be;
   --lightest-text-color: rgb(252, 254, 255);
   --highlight-color: #F3C72C;
 }
@@ -216,7 +227,10 @@ main {
   padding-right: 10px;
 }
 #socials a i {
-  font-size: 30px;
+  font-size: 40px;
+}
+#socials a i:hover {
+  text-shadow: 3px 3px 10px #fff;
 }
 
 hr {
@@ -341,6 +355,7 @@ hr {
   margin-inline: auto;
   text-align: center;
   padding-bottom: 20px;
+  color: var(--light-text-color);
 }
 #projects h3 a {
   text-decoration: none;
@@ -376,6 +391,9 @@ hr {
 }
 .projectcontainer .projecttext {
   padding: 20px;
+}
+.projectcontainer .projecttext #demo {
+  background-color: var(--highlight-color);
 }
 .projectcontainer .projecttext button {
   background-color: transparent;
@@ -418,6 +436,7 @@ footer {
   margin-inline: auto;
   max-width: 1200px;
   height: auto;
+  color: var(--light-text-color);
 }
 
 #about {
@@ -490,11 +509,15 @@ footer {
   text-align: center;
   margin-inline: auto;
 }
+#contact h3 {
+  color: var(--light-text-color);
+}
 #contact h1 {
   font-size: 40px;
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
+  color: var(--lighter-base-color);
 }
 #contact i {
   font-size: 50px;
@@ -539,6 +562,7 @@ footer {
 #knowledge .icons {
   padding: 20px;
   display: flex;
+  color: #fff;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around !important;
@@ -559,10 +583,13 @@ footer {
     font-size: 80px;
   }
 }
+#knowledge .icons i:hover {
+  text-shadow: 3px 3px 10px #000000;
+}
 #knowledge p {
   text-align: center;
   padding-inline: 40px;
-  color: var(--lighter-base-color);
+  color: var(--light-text-color);
   max-width: 800px;
   padding-top: 5px;
   margin-inline: auto;
