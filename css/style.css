@@ -204,7 +204,7 @@ h2 {
 }
 */
 :root {
-  --base-color: #272b3b;
+  --base-color: #323850;
   --darker-base-color: #201e2c;
   --lighter-base-color: #E5F2F9;
   /*--light-text-color: #e2e2e9;*/
@@ -222,7 +222,7 @@ main {
   margin-top: 20px;
 }
 #socials a {
-  color: black;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   padding-right: 10px;
 }
@@ -230,7 +230,7 @@ main {
   font-size: 40px;
 }
 #socials a i:hover {
-  text-shadow: 3px 3px 10px #fff;
+  text-shadow: 2px 2px 5px black;
 }
 
 hr {
