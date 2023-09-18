@@ -319,6 +319,7 @@ hr {
 }
 .flexcontainer .flexitem2 img {
   width: 80%;
+  pointer-events: none;
 }
 @media (min-width: 800px) {
   .flexcontainer .flexitem2 img {
@@ -493,6 +494,7 @@ footer {
      object-fit: contain;
   max-height: 500px;
   width: 100%;
+  pointer-events: none;
 }
 @media screen and (min-width: 800px) {
   #about .container .image img {
