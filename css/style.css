@@ -654,7 +654,6 @@ footer {
   flex-direction: column;
   text-align: center;
   margin: auto;
-  overflow: scroll;
   background-color: rgb(155, 166, 214);
   border-radius: 4px;
   padding: 1em 2em;
