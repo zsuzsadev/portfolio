@@ -86,10 +86,10 @@ h2 {
         }
 
         #language {
-color: var(--lightest-text-color);
+color: var(--highlight-color);
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:700px) {
  color: var(--base-color);
  padding-inline:4px;
 

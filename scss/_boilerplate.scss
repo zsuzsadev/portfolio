@@ -15,6 +15,8 @@ h1, h2, h3, h4, h5, p {
 }
 
 body {
-    background-image: linear-gradient(180deg, var(--base-color), #3c4366);
+    background-image: linear-gradient(to bottom, #222535, #272a3e, #2b3047, #303550, #353b59, #34415f, #334765, #314d6b, #2d536c );
+    /*background-image: linear-gradient(180deg, var(--base-color), #3c4366);*/
 background-color: var(--base-color);
+
 }

@@ -46,6 +46,7 @@ p {
     bottom: 0;
     left: 0;
     width: 50%;
+    overflow: hidden;
     max-width: 500px;
     display: flex;
     flex-direction: column;
@@ -56,6 +57,13 @@ p {
     border-radius: 4px;
     padding: 1em 2em;
     height:fit-content;
+
+ 
+    @media screen and (max-width: 768px) {
+        width: 80%;
+    }
+    
+
 
 h2 {
 text-transform: uppercase;
@@ -132,16 +140,7 @@ i {
   .modal__close:before {
     transform: rotate(-45deg);
   }
-  
-  @media screen and (max-width: 768px) {
-      
-    .modal__inner {
-      width: 90%;
-      height: 90%;
-      box-sizing: border-box;
-    }
-  }
-  
+ 
   
   
   
