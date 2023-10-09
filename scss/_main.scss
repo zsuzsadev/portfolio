@@ -55,6 +55,8 @@ height: 100vh;
 margin-top: -70px;
     }
 
+    
+
     .flexitem1 {
         margin-top: 50px;
         text-align: center;
@@ -90,6 +92,8 @@ margin-top: -70px;
             color:var(--lightest-text-color);
             padding-top: 20px;
             padding-bottom: 10px;
+            text-transform: uppercase;
+font-weight: 100;
 
             @media (min-width: 800px) {
                 font-size: 50px;
@@ -112,7 +116,6 @@ margin-top: -70px;
 
         img {
             width: 80%;
-            pointer-events: none;
 
 
             @media (min-width: 800px) {
@@ -121,5 +124,7 @@ margin-inline: auto;
             }
         
         }
+
+       
     }
 }

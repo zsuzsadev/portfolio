@@ -8,6 +8,36 @@ html, body {
     box-sizing: border-box;
 }
 
+::selection {
+    background-color: var(--highlight-color);
+    color: var(--base-color);
+}
+
+::-moz-selection {
+    background-color: var(--highlight-color);
+    color: var(--base-color);
+
+}
+
+::-o-selection {
+    background-color: var(--highlight-color);
+    color: var(--base-color);
+
+}
+
+::-ms-selection {
+    background-color: var(--highlight-color);
+    color: var(--base-color);
+
+}
+
+::-webkit-selection {
+    background-color: var(--highlight-color);
+    color: var(--base-color);
+
+}
+
+
 /*resets*/
 h1, h2, h3, h4, h5, p {
     margin:0;

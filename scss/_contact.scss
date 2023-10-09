@@ -1,36 +1,66 @@
-#contact {
-    height:500px;
-    padding: 20px;
-    max-width: 1200px;
+.contact {
+    height:fit-content;
+    width: 80%;
     text-align: center;
+    max-width: 500px;
+
     margin-inline: auto;
+    border-radius: 10px;
+
+.contactcontainer{
+    margin-inline: 20px;
+    background-color: var(--lighter-base-color);
+    border-radius: 10px;
+    padding: 40px;
+
 
     h3 {
-        color: var(--light-text-color);
-
+        color: var(--base-color);
     }
 
     h1 {
     font-size: 40px;
     text-align: center;
-    padding-top: 40px;
+    color: var(--base-color);
+    text-transform: uppercase;
+    font-weight: 100;
     padding-bottom: 40px;
-    color: var(--lighter-base-color)
     }
 
-        i {
-            font-size: 50px;
-            padding-bottom: 20px;
-        } 
+    
         
         p {
         text-align: justify;
     }
 a {
     text-decoration: none;
-    color: black;
+    color: var(--base-color);
     letter-spacing: 10px;
 }
+
+}
+
+h4 {
+    font-size: 20px;
+    text-align: center;
+    color: var(--light-text-color);
+    padding-top: 40px;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--base-color);
+    letter-spacing: 10px;
+}
+
+    i {
+        font-size: 40px;
+        color: var(--base-color);
+
+        padding-bottom: 20px;
+    } 
 
     }
 
