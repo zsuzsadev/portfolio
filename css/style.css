@@ -595,7 +595,7 @@ footer {
 }
 .contact i {
   font-size: 40px;
-  color: var(--base-color);
+  color: var(--light-text-color);
   padding-bottom: 20px;
 }
 
