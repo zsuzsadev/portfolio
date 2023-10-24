@@ -79,7 +79,7 @@ h2 {
   color: #FFF;
   height: 50px;
   margin-inline: auto;
-  max-width: 1300px;
+  max-width: 1500px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-inline: 10px;
@@ -277,12 +277,13 @@ hr {
   margin: auto;
   max-width: 80%;
   padding: 0;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 @media (min-width: 800px) {
   hr {
     margin: 0;
-    max-width: 75%;
+    max-width: 70%;
+    padding-bottom: 10px;
   }
 }
 
@@ -290,7 +291,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1300px;
+  max-width: 1500px;
   margin-inline: auto;
   height: auto;
 }
@@ -332,35 +333,32 @@ hr {
   font-size: 50px;
   color: var(--lightest-text-color);
   padding-top: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   text-transform: uppercase;
   font-weight: 100;
 }
 @media (min-width: 800px) {
   .flexcontainer .flexitem1 h1 {
-    font-size: 50px;
+    font-size: 70px;
   }
 }
 @media (min-width: 1200px) {
   .flexcontainer .flexitem1 h1 {
-    font-size: 60px;
+    font-size: 65px;
   }
 }
 .flexcontainer .flexitem2 {
   margin-top: 50px;
   text-align: center !important;
 }
-@media (min-width: 800px) {
-  .flexcontainer .flexitem2 {
-    width: 45%;
-  }
-}
 .flexcontainer .flexitem2 img {
-  width: 80%;
+  width: 70%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 @media (min-width: 800px) {
   .flexcontainer .flexitem2 img {
-    width: 100%;
+    width: 93%;
     margin-inline: auto;
   }
 }
@@ -485,7 +483,10 @@ footer {
 @media screen and (max-width: 800px) {
   #about {
     padding-top: 40px;
-    max-width: 1200px;
+    max-width: 1500px;
+    display: flex;
+    align-self: center;
+    justify-self: center;
   }
 }
 #about .container {
@@ -502,7 +503,7 @@ footer {
     flex-direction: row;
     align-items: center;
     align-self: center;
-    max-width: 1300px;
+    max-width: 1500px;
   }
 }
 #about .container .text {
@@ -517,7 +518,7 @@ footer {
 #about .container .text h1 {
   padding-bottom: 15px;
   text-align: left;
-  font-size: 40px;
+  font-size: 43px;
   text-transform: uppercase;
   font-weight: 100;
 }
@@ -529,6 +530,7 @@ footer {
 #about .container .text p {
   text-align: justify;
   color: var(--darker-base-color);
+  font-size: 18px;
 }
 #about .container .image img {
   -o-object-fit: contain;
@@ -539,7 +541,7 @@ footer {
 }
 @media screen and (min-width: 800px) {
   #about .container .image img {
-    width: 350px;
+    width: 450px;
   }
 }
 #about .container:hover {
@@ -623,7 +625,7 @@ footer {
   margin: 0;
 }
 #knowledge h1 {
-  font-size: 40px;
+  font-size: 45px;
   color: var(--lightest-text-color);
   text-align: center;
   padding-bottom: 10px;
@@ -662,6 +664,7 @@ footer {
   color: var(--light-text-color);
   max-width: 800px;
   padding-top: 5px;
+  font-size: 18px;
   margin-inline: auto;
 }
 
