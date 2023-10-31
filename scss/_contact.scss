@@ -14,6 +14,11 @@
     padding: 40px;
 
 
+    @media all and (max-width:400px) {
+        padding: 20px;  
+
+}
+
     h3 {
         color: var(--base-color);
     }
@@ -25,6 +30,12 @@
     text-transform: uppercase;
     font-weight: 100;
     padding-bottom: 40px;
+
+    @media all and (max-width:400px) {
+        font-size: 35px; 
+
+}
+
     }
 
     
