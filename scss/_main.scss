@@ -1,7 +1,8 @@
 
 header {
     /*background-color: var(--base-color);*/
-        height: 100%;
+        height: auto;
+        min-height: 720px;
 }
 
 #socials {
@@ -34,7 +35,7 @@ hr {
     padding-bottom: 10px;
 
 
-    @media (min-width: 800px) {
+    @media (min-width: 1000px) {
         margin:0;
         max-width: 70%;
         padding-bottom: 10px;
@@ -50,8 +51,9 @@ hr {
     max-width: 1500px;
     margin-inline: auto;
     height: auto;
+    min-height: fit-content;
 
-    @media (min-width: 800px) {
+    @media (min-width: 1000px) {
         flex-direction: row;
 align-items: center;
 height: 100vh;
@@ -68,7 +70,7 @@ margin-top: -70px;
         height: auto;
        
 
-        @media (min-width: 800px) {
+        @media (min-width: 1000px) {
             width: 55%;
             text-align: left;
             margin-top: -40px
@@ -84,7 +86,7 @@ margin-top: -70px;
 
     
 
-            @media (min-width: 800px) {
+            @media (min-width: 1000px) {
                 margin-inline: 0;
                 margin-top: 18px;
                 font-size: 22px;
@@ -104,14 +106,14 @@ font-weight: 100;
 
 
 
-            @media (min-width: 800px) {
+            @media (min-width: 1000px) {
                 font-size: 70px;
             }
 
 
-            @media (max-width: 1300px) {
+            @media (max-width: 1400px) {
                 padding-top: 30px;
-                font-size: 58px;
+                font-size: 50px;
             }
 
             @media  (max-width:400px) {
@@ -128,14 +130,21 @@ font-weight: 100;
       
 
         img {
-            width: 93%;
-object-fit: contain;
+            width: 80%;
+object-fit:cover;
 
-
-            @media (max-width: 1300px) {
-                width: 85%;
+@media (max-width: 1000px) {
+    width: 70%;
 margin-inline: auto;
-            }
+}
+
+
+          
+@media screen and (max-width: 1400px) {
+    margin-inline: auto;
+    width: 70%;
+    
+ }
         
         }
 
