@@ -581,7 +581,6 @@ footer {
 }
 .contact .contactcontainer {
   margin-inline: 20px;
-  background-color: var(--lighter-base-color);
   border-radius: 10px;
   padding: 40px;
 }
@@ -611,8 +610,9 @@ footer {
 }
 .contact .contactcontainer a {
   text-decoration: none;
-  color: var(--base-color);
-  letter-spacing: 10px;
+  color: var(--highlight-color);
+  letter-spacing: 0cap;
+  font-size: 20px;
 }
 .contact h4 {
   font-size: 20px;
@@ -629,9 +629,12 @@ footer {
 }
 .contact i {
   font-size: 40px;
+  padding-top: 20px;
   color: var(--light-text-color);
   padding-bottom: 20px;
 }
+
+
 
 #knowledge {
   padding: 20px;
@@ -785,9 +788,13 @@ footer {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.modal__inner .modaltext i {
-  font-size: 40px;
+.modal__inner .modaltext a {
+color: var(--base-color);
+text-decoration: none;
+
 }
+
+
 
 .modal__close {
   position: absolute;
