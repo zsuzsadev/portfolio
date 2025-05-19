@@ -412,7 +412,7 @@ hr {
   margin-inline: auto;
   text-align: center;
   padding-bottom: 20px;
-  color: var(--light-text-color);
+  color: var(--base-color);
 }
 #projects h3 a {
   text-decoration: none;
