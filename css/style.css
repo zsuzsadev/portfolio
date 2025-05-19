@@ -1,5 +1,7 @@
 html, body {
-  margin: 0;
+  margin-inline: auto;
+  max-width: 1100px;
+
   scroll-behavior: smooth;
 }
 
@@ -252,7 +254,9 @@ h2 {
 header {
   /*background-color: var(--base-color);*/
   height: auto;
-  min-height: 720px;
+  padding: 20px;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 #socials {
@@ -292,7 +296,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1500px;
+  max-width: 1000px;
   margin-inline: auto;
   height: auto;
   min-height: -moz-fit-content;
@@ -302,7 +306,6 @@ hr {
   .flexcontainer {
     flex-direction: row;
     align-items: center;
-    height: 100vh;
     margin-top: -70px;
   }
 }
@@ -329,7 +332,7 @@ hr {
   .flexcontainer .flexitem1 #smalltext {
     margin-inline: 0;
     margin-top: 18px;
-    font-size: 22px;
+    font-size: 20px;
     width: 75%;
   }
 }
@@ -343,13 +346,13 @@ hr {
 }
 @media (min-width: 1000px) {
   .flexcontainer .flexitem1 h1 {
-    font-size: 70px;
+    font-size: 50px;
   }
 }
 @media (max-width: 1400px) {
   .flexcontainer .flexitem1 h1 {
     padding-top: 30px;
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 @media (max-width: 400px) {
@@ -368,7 +371,7 @@ hr {
 }
 @media (max-width: 1000px) {
   .flexcontainer .flexitem2 img {
-    width: 70%;
+    width: 50%;
     margin-inline: auto;
   }
 }
@@ -533,18 +536,19 @@ footer {
   }
 }
 #about .container .text {
+  max-width: 80%;
+  margin-inline: auto;
   padding-bottom: 20px;
 }
 @media screen and (min-width: 800px) {
   #about .container .text {
     text-align: left;
-    padding-right: 40px;
   }
 }
 #about .container .text h1 {
   padding-bottom: 15px;
   text-align: left;
-  font-size: 43px;
+  font-size: 30px;
   text-transform: uppercase;
   font-weight: 100;
 }
@@ -558,18 +562,7 @@ footer {
   color: var(--darker-base-color);
   font-size: 18px;
 }
-#about .container .image img {
-  -o-object-fit: contain;
-     object-fit: contain;
-  max-height: 500px;
-  width: 100%;
-  pointer-events: none;
-}
-@media screen and (min-width: 800px) {
-  #about .container .image img {
-    width: 450px;
-  }
-}
+
 #about .container:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -581,6 +574,8 @@ footer {
   width: fit-content;
   text-align: center;
   max-width: 500px;
+  padding-bottom: 5%;
+  padding-top: 5%;
   margin-inline: auto;
   border-radius: 10px;
 }
@@ -643,8 +638,9 @@ footer {
   max-width: 1200px;
   height: -moz-fit-content;
   height: fit-content;
-  min-height: 500px;
   display: flex;
+  padding-top: 10%;
+  padding-bottom: 10%;
   flex-direction: column;
   justify-content: center;
   margin-inline: auto;
