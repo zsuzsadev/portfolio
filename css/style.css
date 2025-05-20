@@ -469,6 +469,7 @@ hr {
 }
 .projectcontainer .projecttext button a {
   color: var(--base-color);
+text-decoration:none;
 }
 .projectcontainer .projecttext button:hover {
   background-color: var(--highlight-color);
